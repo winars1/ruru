@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: winars1/react-appv2
+          image: winars1/react-appv3
           ports:
             - containerPort: 80
 ---
