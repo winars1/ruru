@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: winars1/react-appv3
+          image: winars1/nextjs-docker
           ports:
             - containerPort: 80
 ---
@@ -29,3 +29,4 @@ spec:
     - protocol: TCP
       port: 80
       targetPort: 80
+
